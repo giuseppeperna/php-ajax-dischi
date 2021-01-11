@@ -13,7 +13,7 @@ const musicApp = new Vue({
         selectedGenre:""
     },
     mounted() {
-        axios.get("http://localhost/Lezione%2069/php-ajax-dischi/esercizio_2/database/db.php").then(result => {
+        axios.get("http://localhost/Lezione%2069/php-ajax-dischi/esercizio_2/database/server.php").then(result => {
             this.albums = result.data.response;
         })
     },

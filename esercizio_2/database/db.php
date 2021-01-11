@@ -81,7 +81,4 @@ $db_music = [
     ]
 ];
 
-header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
-echo json_encode($db_music);
 ?>
